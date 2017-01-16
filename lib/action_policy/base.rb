@@ -1,4 +1,4 @@
-require "active_support/core_ext/class/attribute"
+require "active_support/core_ext/class"
 
 class ActionPolicy::Base
   attr_reader :user, :resource, :parent, :options
